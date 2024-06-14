@@ -27,5 +27,5 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/halohub/halo:2.16.3 docker://registry.cn-hangzhou.aliyuncs.com/xiaoli822/halo:2.16.3
+         skopeo copy docker://docker.io/halohub/hello-world:latest docker://registry.cn-hangzhou.aliyuncs.com/xiaoli822/hello-world:latest
       # 使用 skopeo 工具将镜像同步到阿里云个人仓库中，使用时请自行源和目标修改仓库名称和镜像名称
